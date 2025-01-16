@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.module": "php",
+        "aws_iot_config.h": "c"
+    }
+}
