@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "*.module": "php",
-        "aws_iot_config.h": "c"
+        "aws_iot_config.h": "c",
+        "aws_iot_log.h": "c",
+        "nvs_flash.h": "c"
     }
 }

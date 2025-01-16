@@ -29,7 +29,7 @@ This project demonstrates how to connect an ESP32-C6 microcontroller to AWS IoT 
     - Download the certificates and keys.
     - Attach a policy to the IoT Thing to allow MQTT operations.
 
-    3.1 **Create and attach a policy:**
+    - **Create and attach a policy:**
         - Create a new policy in AWS IoT Core with the following JSON:
           ```json
           {
@@ -50,7 +50,7 @@ This project demonstrates how to connect an ESP32-C6 microcontroller to AWS IoT 
           ```
         - Attach the policy to your IoT Thing.
 
-    3.2 **Create the certs folder and rename the certificates:**
+    - **Create the certs folder and rename the certificates:**
         - Create a folder named `certs` inside the src directory and add the AWS root certificate, private key and the device certificate.
         - rename the files as `aws-root-ca.pem`, `certificate.pem.crt`, `private.pem.key`.
 
